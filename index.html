@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find lyrics</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="input-container">
+        <label>Artist</label><input type="text" class="artist-field" placeholder="Enter artist name...">
+        <label>Song title</label><input type="text" class="song-field" placeholder="Enter song title...">
+        <div class="btn-container">
+            <button class="search-btn" onclick="SearchSong()">Find lyrics</button>
+        </div>
+    </div>
+    <div class="reslut-container">
+        <p class="placeholder-text">Enter the artist name and a song title to see the lyrics here</p>
+        <div class="artis-name"></div>
+        <div class="song-title"></div>
+        <pre class="lyrics"></pre>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
